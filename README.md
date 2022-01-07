@@ -22,7 +22,10 @@ Make sure to have the following installed:
 ### 3. Creates tables in database
  $ rails db:migrate
 
-### 4. Runs application server (http://localhost:3000)
+### 4. Seed data
+ $ rails db:seed
+
+### 5. Runs application server (http://localhost:3000)
  $ rails server
 
 ### Tests
